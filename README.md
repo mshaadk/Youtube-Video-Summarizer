@@ -1,10 +1,10 @@
 # YouTube Video Summarizer
-This project is a web application built using Streamlit that allows users to summarize YouTube videos based on their transcripts. It leverages Google's Gemini Model to generate concise summaries from the extracted transcripts.
+This project is a web application built using **Streamlit** that allows users to summarize YouTube videos based on their transcripts. It leverages **Google's Gemini Model** to generate concise summaries from the extracted transcripts.
 
 ![image](https://github.com/user-attachments/assets/91496b01-455a-495f-a83e-107c24fc78d7)
 
 ## Features
-- Extracts YouTube video transcripts using the YouTube Transcript API.
+- Extracts YouTube video transcripts using the [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api).
 - Summarizes transcripts into concise bullet points using Google's Generative AI.
 - Provides video thumbnails along with the summary for better visualization.
 - Interactive and simple-to-use interface powered by Streamlit.
