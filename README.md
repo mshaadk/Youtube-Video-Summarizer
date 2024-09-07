@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 
 ```python
 git clone https://github.com/mshaadk/Youtube-Video-Summarizer.git
-cd youtube-video-summarizer
+cd Youtube-Video-Summarizer
 ```
 
 **2. Create a virtual environment and install dependencies:**
