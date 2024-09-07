@@ -5,7 +5,7 @@ This project is a web application built using **Streamlit** that allows users to
 
 ## Features
 - Extracts YouTube video transcripts using the [YouTube Transcript API](https://github.com/jdepoix/youtube-transcript-api).
-- Summarizes transcripts into concise bullet points using Google's Generative AI.
+- Summarizes transcripts into concise bullet points using Google's Gemini Model.
 - Provides video thumbnails along with the summary for better visualization.
 - Interactive and simple-to-use interface powered by Streamlit.
 
@@ -46,7 +46,7 @@ streamlit run app.py
 2. Enter the YouTube video URL you want to summarize.
 3. Click on the "Get Summary" button to generate a concise summary.
 
-Code Overview
+## Code Overview
 `app.py`
 - **YouTube Transcript Extraction:** Uses the `YouTubeTranscriptApi` to fetch video transcripts.
 - **Summarization:** Passes the transcript to Google's Gemini Model for summarization.
